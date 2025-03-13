@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+#navbar{
+    background-color: darkslategrey !important;   
+}
+
+.navbar .navbar-brand{
+    font-size: 22px;
+    color: goldenrod;
+    font-weight: 800;
+}
+
+ul li{
+    border-bottom: 2px  transparent;
+}
+ul li:hover{
+    border-bottom: 2px solid goldenrod;
+}
+
+/* ! Main */
+#home{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%)
+     !important;
+}
+
+#home{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ourpage{
+    color: blue;
+    font-weight: bold;
+}
+
+
+.home-img{
+    border-radius: 10px;
+}
+
+#places{
+
+    background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #bf1a1a 100%)  !important;
+}
+
+.card{
+ background-color: darkgray;
+ cursor: pointer; 
+ opacity: 0.9;
+}
+
+.card:hover{
+    background-color: cadetblue;
+    transition: .5s;
+    box-shadow: .3svb black;
+    opacity: 1;
+    transform: .3s;
+}
+
+
+#btn-1{
+    border: 2px beige solid;
+    
+}
+
+/* ! Footer */
+
+.footer{
+    background-color: darkslategrey !important;
+   
+}
+.h5{
+    color: goldenrod !important;
+}
